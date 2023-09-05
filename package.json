@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test --coverage --watchAll=false",
+    "test": "react-scripts test --coverage --maxWorkers=1 --watchAll=false",
     "eject": "react-scripts eject",
     "build": "react-scripts build",
     "build-application": "npm run build",
@@ -85,6 +85,12 @@
       "!<rootDir>/src/index.tsx",
       "!<rootDir>/node_modules/",
       "!<rootDir>/path/to/dir/"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 100,
+        "branches": 100
+      }
+    }
   }
 }
