@@ -1,4 +1,5 @@
 # Deploy application
+name: Deploy Application
 on:
   push:
     branches: [main]

@@ -1,4 +1,5 @@
 # Audit application
+name: Audit Application
 on:
   pull_request:
     branches: [main, development]
