@@ -1,8 +1,7 @@
 # Audit application
 name: Audit Application
-on:
-  pull_request:
-    branches: [main, development]
+
+on: [pull_request]
 
 jobs:
   audit-application:

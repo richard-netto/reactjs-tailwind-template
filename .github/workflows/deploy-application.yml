@@ -1,8 +1,10 @@
 # Deploy application
 name: Deploy Application
+
 on:
   push:
-    branches: [main]
+    # Add deploy trigger branch name
+    branches: [branch-name] 
 
 jobs:
   deploy-application:
