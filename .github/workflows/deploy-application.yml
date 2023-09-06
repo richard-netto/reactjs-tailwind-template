@@ -1,5 +1,6 @@
 # Deploy application
 name: Deploy Application
+
 on:
   push:
     # Add deploy trigger branch name
